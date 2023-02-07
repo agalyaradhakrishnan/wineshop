@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top-nav a {
+    color: white;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    
+}
+.col-auto p {
+    margin-left: 5px;
+    display: inline;    
+}
+
+.social-icons a{
+    border-radius: 100%;
+    background-color:brown;
+    font-size:15px;
+    padding: 5px 12px; 
+    display: inline-flex; 
+    text-decoration: none;
+}
+.mid-nav i{
+    font-size: 30px;
+    color: gray;
+    display: inline;
+}
+.mid-nav .btn{
+    margin-left: 1%;
+    width: 55px; 
+    height: 45px;
+}
+.mid-nav img{
+    margin-left: 2%;
+}
+/*hhhhhhhhooommmmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeee*/
+.carousel-slide{
+position: relative;
+}
+.car-0{
+    background-color: chocolate;
+    width: 95%;
+    position: absolute;
+    height: 45%;
+    margin-top: 45%;
+    margin-left: 3%;
+}
+section{
+    padding: 50px 0px;
+}
+.car-card-0 .card {
+    position: absolute;
+    
+}
+.Categories .card{
+    margin-top: 195%;
+}
+.Categories #myCarousel{
+    margin-top: 60%;
+    background-color: rgb(248, 189, 189);
+}
+#image .im-1{
+    background-image: url("img/carddd-1.jpg");
+    position: relative;
+    border-radius: 20px;
+    width: 50vh;
+    height: 40vh;
+}
+#image .im-2{
+    background-image: url("img/carddd-2.jpg");
+    position: relative;
+    border-radius: 20px;
+    width: 50vh;
+    height: 40vh;
+}#image .im-3{
+    background-image: url("img/carddd-1.jpg");
+    position: relative;
+    border-radius: 20px;
+    width: 50vh;
+    height: 40vh;
+}
+#image p{
+    position: absolute;
+     top:47%
+    
+}
+em{
+    float: right;
+}
+.Arrivals .card{
+    width:35rem ;
+}
+.feature .card{
+    width: 36rem;
+}
+.feature .pop{
+    margin-top:-7.5% ;
+}
+.feature .pup .card{
+    width: 30rem;
+    margin-left:0%;
+    border: 2px solid black;
+    height: 40.1rem;
+    
+}
+.feature .pup .card .mt-1{
+    margin-left: 7%;
+}
+.feature .pup .card .d-flex{
+   margin-left: 2%;
+   font-size: 5px;
+}
+.feature .pep .card{
+    margin-left:-3% ;
+    width: 31rem;
+    background-color:rgb(248, 189, 189); 
+    height: 40.1rem;
+}
+.feature .pep .card .btn{
+    padding:10px 80px ;
+}
+.bg{
+    background-image: url("img/bg.jpg");
+    position: relative;
+    width: 180vh;
+    height: 50vh;
+    background-position: center;
+}
+.bg .txt{
+    position: absolute;
+}
+.toptricks .card{
+    width: 45rem;
+    height: 27rem;
+}
+.toptricks .btn{
+    padding: 15px 60px;
+     margin-left: 5%;
+     margin-top:33px;
+}
+.blog .card .btn{
+    padding:10px 110px ;
+}
+.blog .card{
+    width: 38rem;
+}
+.test .card{
+    width:38rem;
+   height:51.5rem;
+}
+.beg{
+    background-image: url("https://slidesigma.nyc/templatemonster/html/bidouno/assets/img/bg.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.beg img{
+    width: 28%;
+    margin-top: 25%;
+}
+.begt{
+    margin-top: 20%;
+    margin-left: 13%;
+   
+}
+.stay{
+    background-color: chocolate;
+    width: 120%;
+    height: 40vh;
+    margin-left: 1%;
+}
+
+footer{
+    background-image:url("img/bg-banner.jpg");
+      width:100% ;
+      height: 60vh;
+      background-size: cover;
+      background-position:center ;
+}
+@media(max-width:600px){
+    .car-card .back{
+        width: 100%;
+    }
+    .Categories .card{
+        margin-top: 140%;
+    }
+    .Categories #myCarousel{
+        margin-top: 10%;
+}
+.mid-nav i{
+    font-size: 10px;
+}
+.mid-nav .btn{
+    margin-left: 1%;
+    width: 25px; 
+    height: 25px;
+}
+.mid-nav img{
+    margin-left: -7%;
+}
+.Arrivals .card{
+    width:30rem ;
+}
+.feature .card{
+    width: 30rem;
+}
+.feature .pop{
+    margin-top:2% ;
+}
+.feature .pup .card{
+    width: 30rem;
+    margin-left: 2%;
+} 
+.feature .pep .card{
+    margin-left:3% ;
+    width: 30rem;
+    }
+    .feature .pep .card .btn{
+        padding:10px 70px ;
+    }
+.bg{
+        width: 75vh;
+        height: 70vh;
+}
+.toptricks .card{
+    width: 35rem;
+    height: 27rem;
+}
+.toptricks .btn{
+    padding: 15px 50px;
+     margin-left: 5%;
+     margin-top:37px;
+       
+}
+.blog .card .btn{
+    padding:10px 60px ;
+}
+.blog .card{
+    width: 33rem;
+}
+.test .card{
+    width:38rem;
+   height:51.5rem;
+}
+.beg{
+    width: 82vh;
+    height: 60vh;
+}
+.beg img{
+    width: 28%;
+    margin-top: 25%;
+}
+footer{
+      width:100% ;
+      height: 140vh;
+}
+footer img{
+    width: 100px;
+}
+}
+
+/* phone*/
+
+
+@media(max-width:480px){
+    .Categories .card{
+        margin-top: 155%;
+    }
+    .mid-nav i{
+        font-size: 10px;
+    }
+    .mid-nav .btn{
+        margin-left: 1%;
+       
+    }
+    .mid-nav img{
+        margin-left: 2%;
+        width: 15%;
+    }
+    .car-card .back{
+        width: 100%;
+    }
+    .Categories .card{
+        margin-top: 160%;
+    }
+    #image .im-1{
+        width: 40vh;
+        height: 40vh;
+    }
+    #image .im-2{
+        width: 40vh;
+        height: 40vh;
+    }
+    #image .im-3{
+        width: 40vh;
+        height: 40vh;
+    }
+    .Arrivals .card{
+        width:28rem ;
+    }
+    .feature .card{
+        width: 28rem;
+    }
+    .feature .pop{
+        margin-top:-7.5% ;
+    }
+    .feature .pup .card{
+        width: 28rem;
+        margin-left: 3%;
+    }
+    .feature .pep .card{
+        margin-left:2% ;
+        width: 28rem;
+        height: 40.1rem;
+    }
+    .feature .pep .card .btn{
+        padding:10px 65px ;
+    }
+    .bg{
+        width: 50vh;
+        height: 75vh;
+    }
+    .toptricks .card{
+        width: 33rem;
+        height: 27rem;
+    }
+    .toptricks .btn{
+        padding: 15px 50px;
+        margin-left: 5%;
+        margin-top:337px;
+    }
+    .blog .card .btn{
+        padding:10px 50px ;
+    }
+    .blog .card{
+        width: 33rem;
+    }
+    .test .card{
+        width:28rem;
+       height:51.5rem;
+    }
+    .beg{
+        width: 75vh;
+        height: 60vh;
+    }
+    footer{
+          width:100% ;
+          height: 150vh;
+    }
+    footer img{
+        width: 100px;
+    }
+}
+
+
+/*oooooooooooooooooooooooooooooooowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwllllllllllllllllllllllllllll*/
